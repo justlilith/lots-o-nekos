@@ -135,7 +135,7 @@ class Oneko extends EventTarget {
     this.speed = options.speed ?? 10;
     this.size = options.size ?? 32;
     this.allowedTargetDistance = options.allowedTargetDistance ?? 48;
-    this.source = options.source ?? "https://raw.githubusercontent.com/raynepaws/oneko_db/refs/heads/master/default.png";
+    this.source = options.source ?? "https://raw.githubusercontent.com/tallypaws/oneko_db/refs/heads/master/default.png";
     this.updateSpeed = options.updateSpeed ?? 100;
     this.loopAnimating = options.loopAnimating ?? true;
     this.skipAlertAnimation = options.skipAlertAnimation ?? false;
@@ -219,7 +219,7 @@ class Oneko extends EventTarget {
     }
     this.source = Oneko.createDatabaseSourceURL(sourceName);
 
-    return `https://raw.githubusercontent.com/raynepaws/oneko_db/refs/heads/master/${encodeURIComponent(sourceName)}.png`;
+    return `https://raw.githubusercontent.com/tallypaws/oneko_db/refs/heads/master/${encodeURIComponent(sourceName)}.png`;
   }
 
   onAnimationFrame(timestamp) {

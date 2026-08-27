@@ -229,7 +229,7 @@ declare module "lots-o-nekos" {
        * The name of the image to access from the source database.
        */
       sourceName: OnekoDatabaseSource | "random" | (string & {})
-    ): `https://raw.githubusercontent.com/raynepaws/oneko_db/refs/heads/master/${typeof sourceName}.png`,
+    ): `https://raw.githubusercontent.com/tallypaws/oneko_db/refs/heads/master/${typeof sourceName}.png`,
     /**
      * Returns `true` if an Oneko can be initialized under current conditions. An example in which this would return `false` is if the `prefers-reduced-motion` media query is set to `reduce`.
      * 
@@ -245,7 +245,7 @@ declare module "lots-o-nekos" {
      * 
      * [Documentation Reference](https://github.com/raynepaws/lots-o-nekos/blob/master/DOCUMENTATION.md#spritesets)
      * 
-     * ![image](https://raw.githubusercontent.com/raynepaws/oneko_db/refs/heads/master/default.png)
+     * ![image](https://raw.githubusercontent.com/tallypaws/oneko_db/refs/heads/master/default.png)
      * @since 1.0.0
      */
     spriteSets: {
@@ -418,7 +418,7 @@ declare module "lots-o-nekos" {
       y: number
     ): Oneko;
     /**
-     * Sets the source image of the Oneko element to a URL accessing the source database of Oneko PNGs (https://github.com/raynepaws/oneko_db/). Recently added images may not appear in the selector.
+     * Sets the source image of the Oneko element to a URL accessing the source database of Oneko PNGs (https://github.com/tallypaws/oneko_db/). Recently added images may not appear in the selector.
      * 
      * [Documentation Reference](https://github.com/raynepaws/lots-o-nekos/blob/master/DOCUMENTATION.md#setsourcedbsourcename-onekodatabasesource-oneko)
      * @since 2.1.0
