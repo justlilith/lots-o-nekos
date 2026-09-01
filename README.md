@@ -11,7 +11,7 @@ Lots-o-nekos is a just-for-fun npm package that gives you access to a constructa
 ## Contributing
 Contributions are welcome from anybody who knows what they're doing. if you have an idea for a new feature, or a fix for a bug, make a pull request! Let's make this a great package, together :)
 
-If you're a pixel artist, you could try creating a custom graphic and upload it to the [Oneko Source Database](https://github.com/tallypaws/oneko_db/)!
+If you're a pixel artist, you could try creating a custom graphic and upload it to the [Oneko Source Database](https://github.com/raynepaws/oneko_db/)!
 
 ## Installation
 Install the package using this command:
